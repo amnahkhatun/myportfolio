@@ -1,33 +1,98 @@
-.App {
-  text-align: center;
+.header-class{
+  background: #7F7FD5;  
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+/* background-image: url("https://images.unsplash.com/photo-1514388614019-c755c395185c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
+background-size:cover;
+}
+body {
+  overflow: scroll;
+}
+.landing-grid{
+  background: #7F7FD5; 
+background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  
+background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); 
+background-size:cover;
+/* background-image: url("https://images.unsplash.com/photo-1480380799266-582d808d748a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"); */
+text-align : center;
+position: fixed;
+top : 0;
+left : 0;
+width : 100%;
+height : 100%
+
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.avatar-img{
+  height:250px;
+  /* padding-top: 5em; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 55%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1,h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+
+}
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p{
   color: white;
+  font-size: 20px;
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.contact-info {
+  min-width: 180px;
+  display: inline-block;
+  text-align: center
+}
+
+.skill-grid {
+  margin-left: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-cards{
+  
+  flex-basis: 250px;
+    margin: 20px;
+}
+
+/* .main-about-me{
+  background-image: url(./components/background.jpg)
+} */
+.pic{
+  margin-left: 641px;
+  margin-top: 76px;
+}
+.greeting-text{
+  padding-top: 55px
 }
