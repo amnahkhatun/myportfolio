@@ -19,8 +19,8 @@ class Projects extends Component {
                 Mauris sagittis pellentesque lacus eleifend lacinia...
             </CardText>
             <CardActions border>
-                <Button colored> Github</Button>
-                <Button colored><a href="https://murmuring-cove-94796.herokuapp.com/" target='_blank'>Live Demo</a></Button>
+               
+                <Button colored><a href="https://codesandbox.io/s/morning-brook-7ce0f" target='_blank'>Live Demo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -67,7 +67,7 @@ class Projects extends Component {
                <Tabs activeTab={this.state.activeTab}
                onChange = {(tabId) => this.setState({activeTab: tabId})} ripple>
                    <Tab>React js</Tab>
-                   <Tab>Javascript / Node js</Tab>
+                   <Tab>Javascript</Tab>
                    <Tab>Chatbots</Tab>
                </Tabs>
                <section className="projects-grid">

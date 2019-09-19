@@ -21,7 +21,7 @@ class App extends Component {
         </Header>
       
         <Content>
-            <div className="page-content" />
+            {/* <div className="page-content" /> */}
             <Main/>
         </Content>
     </Layout>

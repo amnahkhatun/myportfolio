@@ -21,6 +21,11 @@ import pic17 from '../images/pic17.JPG';
 import pic18 from '../images/pic18.jpg';
 import pic19 from '../images/pic19.JPG';
 import pic20 from '../images/pic20.JPG';
+import court from '../images/court.jpg';
+import food from '../images/food.JPG';
+import jeep from '../images/jeep.jpg';
+import mountain2 from '../images/mountain2.JPG';
+import mountains from '../images/mountains.JPG';
 
  
 const SimpleSwiperWithParams = () => {
@@ -99,21 +104,21 @@ const SimpleSwiperWithParams = () => {
                        <p></p><p></p></div>
                        <div>
         <p></p> <img
-                       src={pic11}
+                       src={food}
                        alt="avatar"
                        className="avatar-img"
                        />
                        <p></p><p></p></div>
                        <div>
         <p></p> <img
-                       src={pic12}
+                       src={mountain2}
                        alt="avatar"
                        className="avatar-img"
                        />
                        <p></p><p></p></div>
                        <div>
         <p></p> <img
-                       src={pic13}
+                       src={court}
                        alt="avatar"
                        className="avatar-img"
                        />
@@ -127,14 +132,14 @@ const SimpleSwiperWithParams = () => {
                        <p></p><p></p></div>
                        <div>
         <p></p> <img
-                       src={pic15}
+                       src={mountains}
                        alt="avatar"
                        className="avatar-img"
                        />
                        <p></p><p></p></div>
                        <div>
         <p></p> <img
-                       src={pic16}
+                       src={jeep}
                        alt="avatar"
                        className="avatar-img"
                        />
