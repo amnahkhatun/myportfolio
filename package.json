@@ -20,7 +20,7 @@
     "react-scrollbar-js": "^1.0.1",
     "react-sweet-progress": "^1.1.2",
     "styled-components": "^4.3.2",
-    "swiper": "^4.5.0"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
